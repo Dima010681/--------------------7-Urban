@@ -1,0 +1,550 @@
+@media (max-width: 1000px) {
+
+    .site-conteiner {
+   width: 100%;
+    }
+
+    .conteiner {
+        margin: 0 auto;
+    }
+
+
+    .menu-nav {
+        gap: 0;
+    }
+
+    .painting {
+        padding-left: 30px;
+    }
+
+    .Collections__tea {
+        gap: 0;
+        flex-wrap: nowrap;
+    }
+
+    .Clients-item:last-child {
+        display: none;
+    }
+
+    .Clients-content {
+        padding: 60px 55px;
+    }
+
+    .all-about-tea {
+        justify-content: normal;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .tea-items {
+        width: 460px;
+    }
+
+    .tea-title-card {
+        width: 210px;
+    }
+
+    .subscribe-content {
+        flex-wrap: wrap;
+       justify-content: center;
+    }
+
+    .subscribe-newsletter-text  {
+        width: 780px;
+        margin-bottom: 60px;
+    }
+
+    .subscribe-newsletter-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteiner-priorities {
+        height: 489px;
+    }
+
+    .priorities-text {
+        padding: 0 100px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .footer-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer-cictem-pay {
+        padding-left: 20px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    header {
+        width: 100%;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .header-logo {
+        padding-left: 243px;
+    }
+
+    .menu-account {
+        padding-left: 54px;
+    }
+
+    .nav-menu-btn {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+        height: 691px;
+        background-color: rgba(255, 255, 255, 1);
+        position: absolute;
+    }
+
+    .title-painting {
+        width: 684px;
+    }
+
+    .painting-text {
+        width: 557.65px;
+    }
+
+    .conteiner {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .Collections__tea {
+        gap: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Collections__tea-link:nth-child(4) {
+        margin-left: 10px;
+    }
+
+    .Clients-list {
+        flex-wrap: wrap;
+    }
+
+    .Clients-item:first-child {
+        margin-bottom: 30px;
+    }
+
+    .all-about-tea {
+            padding-left: 64px;
+    }
+
+    .tea-items:nth-child(2n) {
+        margin-left: 100px;
+    }
+
+    .Clients-item:last-child {
+        display: block;
+    }
+
+    .tea-title-card {
+        width: 252px;
+    }
+
+    .subscribe-content {
+        flex-wrap: wrap;
+       justify-content: center;
+    }
+
+    .subscribe-newsletter-title {
+        text-align: center;
+    }
+
+    .subscribe-newsletter-text {
+        margin-bottom: 60px;
+    }
+
+    .priorities {
+        margin-bottom: 120px;
+    }
+
+    .conteiner-priorities {
+        height: 489px;
+    }
+
+    .content {
+        padding: 95px 64px;
+    }
+
+    .priorities-text {
+        flex-wrap: wrap;
+        padding: 0 65px;
+    }
+
+    .subscribe-button {
+        padding: 0 32px;
+    }
+
+    .priorities-dscr:first-child {
+        margin-bottom: 30px;
+    }
+
+    .footer-conteiner {
+        height: 631px;
+    }
+
+    .footer-content {
+        padding: 50px 64px 0 64px;
+        margin-bottom: 60px;
+    }
+
+    .blok-left {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .footer-text {
+        padding-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .product-nav {
+        margin-right: 51px;
+    }
+
+    .company-nav {
+        margin-right: 67px;
+    }
+
+    .footer-cictem-pay {
+        padding-left: 51px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    .site-conteiner {
+       width: 100%;
+    }
+
+    .conteiner {
+        margin: 0 auto;
+    }
+
+    header {
+        width: 100%;
+       padding-top: 0;
+       margin: 0;
+    }
+
+    .menu-nav {
+        margin: 0;
+        gap: 0;
+    }
+
+    .header-logo {
+        padding-left: 171px;
+        height: 45.35px;
+    }
+
+    .conteiner-header {
+        max-width: 480px;
+        padding: 10px;
+    }
+
+    .menu-account {
+        padding-left: 80px;
+        gap: 20px;
+        padding-right: 50px;
+       }
+
+    .mobile-menu {
+        display: none;
+        height: 691px;
+        width: 360px;
+        background-color: rgba(255, 255, 255, 1);
+        position: absolute;
+    }
+    
+      .nav-menu-btn-mobile {
+        font-family: Cormorant;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.06px;
+      }
+
+    .painting {
+        width: 100%;
+       height: 500px;
+        padding-left: 10px;
+        margin-bottom: 60px;
+    }
+
+    .title-painting {
+        width: 450px;
+        font-family: Cormorant;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48.44px;
+        text-align: left;
+    }
+
+    .painting-text {
+        width: 450px;
+        font-family: Cormorant;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.06px;
+        text-align: left;
+    }
+
+
+    .Collections-tea{ 
+        width: 100%;
+        margin-bottom: 60px;
+    } 
+
+    .Collections-content  {
+        padding-left: 36px;
+    }
+
+    .Collections-text {
+        margin: 0;
+        width: 376px; 
+        font-family: Cormorant;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 21.79px;
+        margin-bottom: 60px;
+    }
+
+    .title {
+        margin: 0;
+        width: 369px;
+        margin-bottom: 60px;
+    }
+      
+    .Collections__tea {
+        width: 416px;
+        gap: 0;
+    }
+
+    .Collections__tea-link:nth-child(4) {
+         margin-left: 0; 
+    }
+
+    .Collections__tea-link:nth-child(5) {
+        margin-left: 36px; 
+   }
+
+   .Clients {
+    width: 100%;
+    margin-bottom: 60px;
+   }
+
+   .conteiner {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.Clients-content {
+    padding: 60px 0;
+}
+
+.Clients-list {
+    justify-content: center;
+    gap: 10px;
+}
+
+.Clients-item {
+    margin: 0;
+    width: 220px;
+}
+
+.Clients-title {
+    padding-left: 40px;
+}
+
+.tea-blog {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.all-about-tea {
+    padding-left: 10px;
+}
+
+.tea-items:nth-child(2n) {
+    margin-left: 0;
+}
+
+
+.tea-title-card {
+    width: 210px;
+}
+
+.tea-title-card {
+    width: 210px;
+}
+
+.picture-blog {
+    background-size: 230px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.subscribe-newsletter {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.subscribe-button {
+    padding: 0 10px;
+    width: 460px;
+}
+
+.subscribe-newsletter-text {
+    width: 460px;
+    font-family: "Open Sans", serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 17.7px;
+    margin-bottom: 30px;
+}
+
+.priorities {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.conteiner-priorities {
+    height: 926px;
+    width: 294px;
+}
+
+.priorities-title {
+    width: 294px;
+    margin-bottom: 30px;
+}
+
+.priorities-text {
+    padding: 0;
+}
+
+footer {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-conteiner {
+    height: 853px;
+}
+
+.footer-content {
+    padding: 50px 10px 0 10px;
+}
+
+.product {
+    width: 97px;
+}
+
+.product-nav {
+    height: 249px;
+    padding-left: 0;
+    margin-right: 133px;
+}
+
+.footer-blok__companitext {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.company-nav {
+    height: 333px;
+    margin-right: 85px;
+    margin-bottom: 50px;
+}
+
+.foter-title {
+    margin-bottom: 30px;
+}
+
+.footer-list {
+    width: 155px;
+    height: 274px;
+}
+
+.blok-left {
+    position: relative;
+    display: flex;
+    width: 460px;
+   right: 240px;
+}
+
+.footer-text {
+    width: 100%;
+    margin-right: 0;
+    padding-left: 10px;
+}
+
+.upper-text {
+    margin-bottom: 11px;
+}
+
+.lower-text {
+   width: 298px; 
+}
+
+.Stay-In-Touch {
+    width: 460px;
+}
+
+.footer-contact {
+    margin-bottom: 0;
+    position: relative;
+    left: 40px;
+}
+
+.title-contact {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-contact-dscr {
+    text-align: center;
+}
+
+.contact-items {
+    position: absolute;
+    bottom: 40px;
+    left: 280px;
+}
+
+.footer-cictem-pay {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.Tealuxe {
+    margin-right: 153px;
+}
+
+.cictem-pay {
+    align-items: center;
+}
+
+}
