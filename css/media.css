@@ -332,7 +332,7 @@
 
     .title {
         margin: 0;
-        width: 369px;
+        width: auto;
         margin-bottom: 60px;
     }
       
@@ -400,7 +400,12 @@
 }
 
 .picture-blog {
-    background-size: 230px;
+    width: 230px;
+    height: 153px;
+}
+
+.tea-text {
+    margin-bottom: 18px;
 }
 
 .content {
@@ -475,7 +480,7 @@ footer {
 
 .company-nav {
     height: 333px;
-    margin-right: 85px;
+    margin-right: 0;
     margin-bottom: 50px;
 }
 
@@ -492,7 +497,7 @@ footer {
     position: relative;
     display: flex;
     width: 460px;
-   right: 240px;
+   right: 310px;
 }
 
 .footer-text {
@@ -513,10 +518,15 @@ footer {
     width: 460px;
 }
 
+.footer-blok__companitext {
+    width: 155px;
+}
+
 .footer-contact {
     margin-bottom: 0;
     position: relative;
     left: 40px;
+    width: 220px;
 }
 
 .title-contact {
@@ -534,6 +544,11 @@ footer {
     left: 280px;
 }
 
+.item-contakt:not(:last-child) {
+    margin-right: 20px;
+}
+
+
 .footer-cictem-pay {
     padding-left: 10px;
     padding-bottom: 20px;
@@ -546,5 +561,222 @@ footer {
 .cictem-pay {
     align-items: center;
 }
+
+}
+
+
+@media (max-width: 360px) {
+   
+    .conteiner-header {
+        max-width: 360px;
+    }
+
+    .header-logo {
+        padding-left: 100px;
+    }
+
+    .mobile-menu {
+        width: 290px;
+    }
+
+    .menu-account {
+        padding-left: 65px;
+        padding-right: 20px;
+    }
+
+    .painting {
+        height: 367px;
+        padding-top: 230px;
+    }
+
+    .title-painting {
+        width: 340px;
+        font-size: 24px;
+        line-height: 29.06px;
+        margin-bottom: 10px;
+    }
+
+    .painting-text {
+        width: 290px;
+        font-size: 13px;
+        line-height: 17.7px;
+    }
+
+    .conteiner {
+        width: 360px;
+    }
+
+    .Collections-text {
+        width: 340px;
+        padding-left: 10px;
+    }
+
+    .Collections-content {
+        padding-left: 0;
+    }
+
+    .title {
+        font-size: 24px;
+        line-height: 29.06px;
+    }
+
+    .Collections-title {
+        text-align: center;
+        width: auto;
+    }
+
+    .Collections__tea {
+        width: 360px;
+        margin-bottom: 0;
+    }
+
+    .tea-link {
+        width: 180px;
+    }
+
+    .Clients-title {
+        padding-left: 0; 
+    }
+
+    .Clients-item:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .Clients-item {
+        width: 340px;
+    }
+
+    .tea-items:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    .tea-articles {
+        width: 270px;
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .picture-blog {
+        width: 270px;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+
+    .tea-title-card {
+        width: 270px;
+    }
+
+    .tea-title-card:nth-child(2) {
+        height: 56px;
+    }
+
+    .tea-articles-text {
+        padding: 0;
+    }
+
+    .all-about-tea {
+        padding-left: 45px;
+    }
+
+    .subscribe-newsletter-title {
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .subscribe-newsletter-text {
+        margin-right: 0;
+        padding: 0 10px;
+    }
+
+    .subscribe-button {
+        margin-bottom: 30px;
+    }
+
+    .We-Prioritise-text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .We-Prioritise-dscr {
+        font-size: 10px;
+        line-height: 13.62px;
+        margin-bottom: 20px;
+    }
+
+    .priorities-dscr:first-child {
+        margin-bottom: 0;
+    }
+
+    .priorities-text {
+        width: 257px;
+        
+    }
+
+    .conteiner-priorities {
+        height: 657px;
+    }
+
+    .We-Prioritise-text {
+        padding-left: 85px;
+    }
+
+    .We-Prioritise-dscr {
+        padding-left: 90px;
+    }
+
+    .picture-priorities {
+        padding-left: 130px;
+    }
+
+    .footer-conteiner {
+        height: 897px;
+    }
+
+    .footer-content {
+        padding: 50px 30px 0 10px;
+        margin-bottom: 0;
+    }
+
+    .product-nav {
+        margin-right: 0; 
+    }
+
+    .company-nav {
+        margin-bottom: 25px;
+    }
+
+    .blok-left {
+        width: 340px;
+        right: 170px;
+    }
+
+    .footer-text {
+        padding-left: 0;
+    }
+
+    .Stay-In-Touch {
+        width: 340px;
+    }
+
+    .footer-contact {
+        margin-bottom: 90px;
+    }
+
+    .contact-items {
+        display: flex;
+        justify-content: flex-end;
+        bottom: 0; 
+        left: 280px; 
+        margin-bottom: 40px;
+    }
+
+    .footer-cictem-pay {
+        margin-bottom: 0;
+    }
+
+    .Tealuxe {
+        margin-right: 60px;
+    }
+
 
 }

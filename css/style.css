@@ -312,7 +312,6 @@ html {
   }
 
   .tea-title-card {
-    height: 86px;
     margin-bottom: 5px;
     font-family: Cormorant;
     font-weight: 400;
@@ -540,7 +539,7 @@ html {
 }
 
 .Stay-In-Touch {
-  width: 270px;
+  width: 78%;
 }
 
 .footer-contact-dscr {
@@ -584,10 +583,13 @@ html {
 
 .contact-items {
   display: flex;
-  justify-content: right;
+  /*justify-content: right;*/
+  position: absolute;
+  right: 200px;
+  
 }
 
-.item-contakt {
+.item-contakt:not(:last-child) {
   margin-right: 20px;
 }
 
